@@ -79,7 +79,10 @@ a.widget-link.search-link {
             li {
               padding: 0 0.5em;
               &:hover {
-                background-color: var(--header_primary-low);
+                background-color: var(--header_primary);
+              }
+              &:focus {
+                background-color: var(--header_primary;
               }
             }
           }
